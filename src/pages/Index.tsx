@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import PetraHero from "@/components/PetraHero";
 import ContributionLevels from "@/components/ContributionLevels";
 import SocialImpact from "@/components/SocialImpact";
@@ -7,6 +8,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Navigation />
       <PetraHero />
       <SocialImpact />
       <ContributionLevels />
