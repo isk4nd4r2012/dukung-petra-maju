@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -88,7 +89,14 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'fade-in-up': 'fadeInUp 0.8s ease-out forwards'
+			},
+			boxShadow: {
+				'soft': '0 4px 20px hsl(var(--primary) / 0.15)',
+				'strong': '0 8px 40px hsl(var(--primary) / 0.25)',
+				'glow': '0 0 30px hsl(var(--primary-glow) / 0.4)'
 			}
 		}
 	},
